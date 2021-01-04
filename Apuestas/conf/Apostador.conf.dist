@@ -1,0 +1,8 @@
+[worldserver]
+
+#
+# Valor del precio de la apuesta mínima en valor de cobre
+# 
+#
+
+Cost=500000
