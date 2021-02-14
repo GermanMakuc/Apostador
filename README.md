@@ -4,9 +4,25 @@
 
 ##  Módulo de Azerothcore
 
-* Permite asignar el oro como apuesta mínima para cada apostador.
-* Reune el oro de todos los apostadores y escoge un ganador al azar entre ellos para llevarse el premio Premio=(apuesta X N°Participantes).
-* Entrega de premio de bolsa total ganada por medio de un GM.
+* Configurable el oro como apuesta mínima para cada apostador.
+* Retirable el premio vía NPC o Onlogin.
+* Reune el oro de todos los apostadores y escoge un ganador al azar entre ellos para llevarse el premio.
+* Entrega de premio de bolsa total ganada sólo por medio de un GM.
+
+> Premio=(apuestaMin * CantidadParticipantes)
+
+> conf\Apostador.conf
+
+```
+[worldserver]
+
+#
+# Valor del precio de la apuesta mínima en valor de cobre
+# 
+#
+
+Cost=500000
+```
 
 ## Requisitos
 
